@@ -1,5 +1,4 @@
-date='https://backend-alpha-sandy.vercel.app'
-document.querySelector(date).textContent = document.URL
+
   fetch('https://backend-alpha-sandy.vercel.app')
  .then(response => response.json())
  .then(data => {
