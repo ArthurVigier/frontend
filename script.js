@@ -1,4 +1,4 @@
-document.querySelector('https://backend-alpha-sandy.vercel.app').textContent = document.URL
+document.getElementById('date').textContent = document.URL
   fetch('https://backend-alpha-sandy.vercel.app')
  .then(response => response.json())
  .then(data => {
