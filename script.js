@@ -4,5 +4,5 @@
  .then(data => {
    document.querySelector('#year').textContent = data.year;
  });
-  module.exports = router;
+
   
