@@ -1,3 +1,4 @@
+date={'https://backend-alpha-sandy.vercel.app'}
 document.getElementById(date).textContent = document.URL
   fetch('https://backend-alpha-sandy.vercel.app')
  .then(response => response.json())
